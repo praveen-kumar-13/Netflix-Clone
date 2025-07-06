@@ -1,0 +1,75 @@
+.login{
+    height: 100vh;
+    background-image:linear-gradient(#0000007e, #0000007e), url(/background_banner.jpg);
+    padding: 20px 8% ;
+}
+.login-logo{
+    width: 150px;
+}
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0,0,0,0.75);
+    padding: 60px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 40px;
+}
+.login-form h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.login-form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    margin: 12px 0;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.login-form input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.login-form button{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    background-color: tomato;
+    border-radius: 4px;
+       font-weight: 500;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remember input{
+    cursor: pointer;
+    width: 16px;
+}
+.remember{
+ display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.help p:hover{
+    color: blue;
+     cursor: pointer;
+}
+.switch-form span{
+         font-weight: 500;
+    font-size: 16px;
+    color:blue;
+    cursor: pointer;
+}

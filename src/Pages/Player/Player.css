@@ -1,0 +1,27 @@
+.player{
+    margin-top: 15px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.player img{
+    width: 50px;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    cursor: pointer;
+}
+.player img:hover{
+    background-color: blue;
+    border-radius: 50px;
+}
+.player-info{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
